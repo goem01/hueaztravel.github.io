@@ -1,0 +1,197 @@
+a{
+    text-decoration: none !important;
+}
+.navbar h1 a{
+    color: #067f92;
+}
+.navbar{
+    justify-content: flex-start !important;
+    /* color: #067f92; */
+    position: relative;
+}
+.navbar-icon{
+    display: none;
+}
+.logo img{
+    height: 140px;
+    width: 200px;
+}
+.navbar h1{
+    font-family: 'Lobster', cursive;
+    font-size: 400%;
+}
+.menu{
+    position: absolute;
+    right:50px;
+    font-size: 30px;
+}
+.intro{
+    margin: auto;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+.intro h2, .intro p{
+    padding: 10px;
+    margin: 0;
+}
+.intro-feature{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro-feature p{
+    padding: 20px;
+    font-size: 24px;
+}
+.middle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row{
+    justify-content: center;
+}
+.select{
+    background: rgba(0, 0, 0, 0.5);
+    /* color: white !important; */
+}
+.select:hover{
+    transform: scale(1.1);
+}
+.select a{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.select img{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+footer{
+    background: #8d8d8d;
+}
+.about{
+    padding-top: 15px;
+}
+.contact{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.a-contact{
+    text-align: left;
+}
+.contact .e-mail{
+    margin: 15px;
+}
+.contact h5, p{
+    margin-bottom: 0 !important;
+}
+/* PC */
+@media only screen and (min-width: 992px) {
+    .header{
+        background-image: url('../img/header.jpg');
+        /* width: 100%; */
+        height: 900px;
+        background-size: cover;
+        border-radius: 100px;
+    }
+    .search{
+        display: inherit;
+        font-size: 30px;
+        position: absolute;
+        right:50px;
+    }
+    .log-in{
+        display: inherit;
+        font-size: 30px;
+        position: absolute;
+        right: 120px;
+    }
+    .menu{
+        display: none;
+    }
+    .intro{
+        max-width: 992px;
+        border-radius: 15px;
+    }
+    .intro h2{
+        font-size: 80px;
+    }
+    .intro p{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .intro-feature{
+        /* max-width: 992px; */
+        /* margin: auto; */
+        margin: 60px 30px 30px 30px;
+        border-radius: 15px;
+        font-size: 35px;
+    }
+    .intro-feature p{
+        padding: 20px;
+    }
+    .middle{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        /* margin: 50px 0px 50px 0px !important; */
+    }
+    .select{
+        border-radius: 15px;
+    }
+    .select a{
+        font-size: 32px;
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    body{
+        background: url('../img/chua-thien-mu.jpeg');
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+    .navbar h1 a{
+        color: white;
+    }
+    .intro h2{
+        font-size: 40px;
+    }
+    .intro p{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .menu{
+        display: inherit;
+        color: white;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    /* body{
+        background: url(/img/huebl.jpg);
+        max-width: 100%;
+        height: auto;
+        background-size: contain;
+    } */
+    .logo{
+        display: none;
+    }
+    .navbar h1{
+        margin-left: 20px;
+    }
+    .menu{
+        display: inherit;
+        
+    }
+    .select{
+        margin: 10px;
+    }
+    .contact{
+        text-align: left;
+    }
+}
